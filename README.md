@@ -1,11 +1,8 @@
 # Desmixador — Separação Adaptativa (Auto‑K) de Stems
 
-[![CI](https://github.com/micdog22/desmixador/actions/workflows/ci.yml/badge.svg)](https://github.com/micdog22/desmixador/actions/workflows/ci.yml)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 
 Separação adaptativa de stems: detecta quantos vocais e instrumentos existem numa música e separa tudo que fizer sentido. Combina Demucs (separação base) + NMF Auto‑K (decomposição do residual) + classificação (PANNs/AudioSet) para rotular cada componente. Inclui CLI, API (FastAPI), Web UI (Streamlit), Docker e relatório HTML.
-
-Nota: atualize `SEU_USUARIO` nas badges após publicar no GitHub.
 
 ---
 
