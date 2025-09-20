@@ -1,4 +1,4 @@
-# Desmixador — Separação Adaptativa (Auto‑K) de Stems
+# Desmixador - Separação Adaptativa (Auto‑K) de Stems
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 
