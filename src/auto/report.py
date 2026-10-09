@@ -22,7 +22,7 @@ code{background:#f8fafc; padding:2px 6px; border-radius:6px; font-family:ui-mono
 </style>
 </head>
 <body>
-<h1>Relatório de Separação — {{ title }}</h1>
+<h1>Relatório de Separação: {{ title }}</h1>
 <div class="meta">Local: <code>{{ song_folder }}</code></div>
 <h2>Stems gerados ({{ stems|length }})</h2>
 <div class="grid">
@@ -30,7 +30,7 @@ code{background:#f8fafc; padding:2px 6px; border-radius:6px; font-family:ui-mono
   <div class="card">
     <div class="badge">{{ stem.name }}</div>
     <p class="meta">{{ stem.path }}</p>
-    <p class="meta">Provável: <strong>{{ stem.label }}</strong> — conf.: {{ "%.2f"|format(stem.confidence) }}</p>
+    <p class="meta">Provável: <strong>{{ stem.label }}</strong> (conf.: {{ "%.2f"|format(stem.confidence) }})</p>
     <img src="data:image/png;base64,{{ stem.wave }}" alt="waveform {{ stem.name }}"/>
   </div>
 {% endfor %}

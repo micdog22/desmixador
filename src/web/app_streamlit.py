@@ -9,7 +9,7 @@ from auto.report import build_report
 import soundfile as sf, numpy as np
 
 st.set_page_config(page_title="Desmixador", layout="centered")
-st.title("Desmixador — Stems adaptativos")
+st.title("Desmixador: Stems adaptativos")
 
 uploaded = st.file_uploader("Envie um arquivo de áudio", type=["mp3","wav","flac","ogg","m4a","aac"])
 
